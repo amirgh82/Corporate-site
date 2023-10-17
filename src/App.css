@@ -1,10 +1,25 @@
+@import "./reset.css";
+
+@font-face {
+  font-family: font;
+  src: url(/src/assets/fonts/Yekan.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+:root {
+  --blue-color: #0396ff;
+  --white-color: #fff;
+  --font-yekan: font;
+}
+
+.app {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  font-family: var(--font-yekan);
 }
