@@ -4,6 +4,10 @@
   font-family: font;
   src: url(/src/assets/fonts/Yekan.ttf);
 }
+@font-face {
+  font-family: titr;
+  src: url(/src/assets/fonts/Yekan.ttf);
+}
 * {
   margin: 0;
   padding: 0;
