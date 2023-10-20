@@ -1,0 +1,35 @@
+.services {
+  margin-top: 3rem;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-title {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: var(--font-mtn);
+}
+
+.services-title-info {
+  font-size: 17px;
+  color: #a2a2a2;
+  margin-top: 0.2rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.services-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    padding: 2rem;
+  }
+}

@@ -8,6 +8,14 @@
   font-family: ghasem;
   src: url(/src/assets/fonts/AGhasem.ttf);
 }
+@font-face {
+  font-family: sogand;
+  src: url(/src/assets/fonts/SOGAND.ttf);
+}
+@font-face {
+  font-family: mtn;
+  src: url(/src/assets/fonts/MTNIrancell-Light.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +28,8 @@
   --font-yekan: yekan;
   --font-ghasem: ghasem;
   --font-koodak: koodak;
+  --font-sogand: sogand;
+  --font-mtn:mtn;
 }
 
 .app {
