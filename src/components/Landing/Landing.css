@@ -1,0 +1,22 @@
+.type-effect {
+  margin-top: 8rem;
+  display: inline-block;
+  color: var(--white-color);
+}
+.type-effect-title {
+  font-size: 2.5rem;
+  font-family: var(--font-ghasem);
+  font-weight: 500;
+}
+
+.arrow {
+  font-size: 2.5rem;
+}
+
+.type-effect-desc {
+  color: #fffc08;
+  margin-right: 3rem;
+  margin-top: -2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

@@ -4,7 +4,7 @@ nav {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.7px);
   -webkit-backdrop-filter: blur(5.7px);
-  width: 85%;
+  width: 100%;
   height: 150px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -40,7 +40,7 @@ nav {
 }
 
 .navbar-item-link:hover {
-  border-bottom: 3px solid var(--white-color);
+  border-bottom: 3px solid #1e2553;
 }
 
 .navbar-login-responsive {
@@ -154,11 +154,12 @@ nav {
     justify-content: flex-start;
     padding: 2rem 0;
     background-color: #1e2553;
-    position: fixed;
+    position: absolute;
     top: -40px;
-    right: -57px;
+    right: -80px;
     height: 100vh;
     width: 200px;
+    z-index: 11;
   }
 
   .show-menu .navbar-item {

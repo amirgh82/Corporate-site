@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import Landing from "./components/Landing/Landing";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="app">
         <header>
           <Navbar />
+          <Landing />
         </header>
       </div>
     </>

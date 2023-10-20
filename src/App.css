@@ -19,6 +19,7 @@
   --white-color: #fff;
   --font-yekan: yekan;
   --font-ghasem: ghasem;
+  --font-koodak: koodak;
 }
 
 .app {
@@ -36,5 +37,11 @@ header {
   background-position: center;
   width: 100%;
   height: 100vh;
-  padding-top: 2rem;
+  padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 2rem;
+  }
 }
