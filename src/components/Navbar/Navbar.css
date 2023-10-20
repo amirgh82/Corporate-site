@@ -1,13 +1,11 @@
 nav {
-  /*Fromhttps:;
-  //css.glass*/
   background: rgba(255, 255, 255, 0.22);
   border-radius: 2rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.7px);
   -webkit-backdrop-filter: blur(5.7px);
   width: 85%;
-  height: 20vh;
+  height: 150px;
   margin: 0 auto;
   padding: 0 1rem;
   display: flex;
@@ -18,16 +16,11 @@ nav {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
-
-.logo-navbar {
-  height: 100%;
+.logo-navbar h2 {
+  color: var(--white-color);
+  font-size: 1.7rem;
+  font-family: var(--font-ghasem);
 }
-
-.logo {
-  width: 150px;
-  height: 100%;
-}
-
 .navbar-lists {
   display: flex;
   justify-content: space-between;
@@ -96,16 +89,13 @@ nav {
   width: 160%;
 }
 
-.burger-menu {
+.burger-menu,
+.hamburger input {
   display: none;
 }
 
 .hamburger {
   cursor: pointer;
-}
-
-.hamburger input {
-  display: none;
 }
 
 .hamburger svg {
@@ -150,9 +140,7 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  .navbar-lists {
-    display: none;
-  }
+  .navbar-lists,
   .navbar-login {
     display: none;
   }
@@ -165,17 +153,12 @@ nav {
     align-items: center;
     justify-content: flex-start;
     padding: 2rem 0;
-    background-color: var(--white-color);
+    background-color: #1e2553;
     position: fixed;
     top: -40px;
-    right: -50px;
+    right: -57px;
     height: 100vh;
     width: 200px;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
   }
 
   .show-menu .navbar-item {
@@ -183,18 +166,12 @@ nav {
   }
 
   .show-menu .navbar-item-link {
-    color: black;
     font-size: 1rem;
     font-weight: 400;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--white-color);
   }
   .navbar-login-responsive {
     margin-top: 2rem;
     display: block;
-  }
-
-  .btn {
-    color: black;
-    border: 2px solid black;
   }
 }
