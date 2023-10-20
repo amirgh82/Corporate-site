@@ -10,20 +10,11 @@ export default function Navbar() {
   return (
     <nav>
       <div className="logo-navbar">
-        <a href="#">
-          <img
-            className="logo"
-            src="/src/assets/images/logo.png"
-            alt="codino logo"
-          />
-        </a>
+        <h2>
+         وب کدینو
+        </h2>
       </div>
       <ul className={`navbar-lists ${isHamburgerMenuShow ? "show-menu" : ""}`}>
-        <li className="navbar-item">
-          <a href="#" className="navbar-item-link">
-            کدینو
-          </a>
-        </li>
         <li className="navbar-item">
           <a href="#" className="navbar-item-link">
             پروژه ها

@@ -1,12 +1,12 @@
 @import "./reset.css";
 
 @font-face {
-  font-family: font;
+  font-family: yekan;
   src: url(/src/assets/fonts/Yekan.ttf);
 }
 @font-face {
-  font-family: titr;
-  src: url(/src/assets/fonts/Yekan.ttf);
+  font-family: ghasem;
+  src: url(/src/assets/fonts/AGhasem.ttf);
 }
 * {
   margin: 0;
@@ -17,7 +17,8 @@
 :root {
   --blue-color: #0396ff;
   --white-color: #fff;
-  --font-yekan: font;
+  --font-yekan: yekan;
+  --font-ghasem: ghasem;
 }
 
 .app {
