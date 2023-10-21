@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { FreeMode, Pagination } from "swiper/modules";
+import { FreeMode } from "swiper/modules";
 export default function Projects() {
   const [slidesPerView, setSlidesPerView] = useState(4);
 
@@ -40,21 +40,57 @@ export default function Projects() {
           slidesPerView={slidesPerView}
           spaceBetween={30}
           freeMode={true}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[FreeMode, Pagination]}
+          modules={[FreeMode]}
           className="mySwiper"
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
-          <SwiperSlide>Slide 6</SwiperSlide>
-          <SwiperSlide>Slide 7</SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
+          <SwiperSlide>
+            <div class="projects-card">
+              <img src="/src/assets/images/background3.jpg" alt="" />
+              <h5>پروژه فروشگاهی</h5>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="projects-card">
+              <img src="/src/assets/images/background3.jpg" alt="" />
+              <h5>پروژه فروشگاهی</h5>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="projects-card">
+              <img src="/src/assets/images/background3.jpg" alt="" />
+              <h5>پروژه فروشگاهی</h5>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="projects-card">
+              <img src="/src/assets/images/background3.jpg" alt="" />
+              <h5>پروژه فروشگاهی</h5>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="projects-card">
+              <img src="/src/assets/images/background3.jpg" alt="" />
+              <h5>پروژه فروشگاهی</h5>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="projects-card">
+              <img src="/src/assets/images/background3.jpg" alt="" />
+              <h5>پروژه فروشگاهی</h5>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="projects-card">
+              <img src="/src/assets/images/background3.jpg" alt="" />
+              <h5>پروژه فروشگاهی</h5>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="projects-card">
+              <img src="/src/assets/images/background3.jpg" alt="" />
+              <h5>پروژه فروشگاهی</h5>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
