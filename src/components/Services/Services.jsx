@@ -8,8 +8,8 @@ export default function Services() {
   return (
     <>
       <div className="services">
-        <h3 className="services-title">خدمات کدینو</h3>
-        <span className="services-title-info">Codino services</span>
+        <h3 className="section-title">خدمات کدینو</h3>
+        <span className="section-title-en">Codino services</span>
         <div className="services-card">
           <Card
             title="توسعه نرم افزار"

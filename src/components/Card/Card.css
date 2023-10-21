@@ -9,7 +9,6 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  margin: 1.5rem 0;
 }
 
 .card2 {
@@ -41,6 +40,7 @@
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
 }
 .scale {
+  margin: 1.5rem 1rem;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
