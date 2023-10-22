@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className="logo-navbar">
+      <div className="logo">
         <h2>وب کدینو</h2>
       </div>
       <ul className={`navbar-lists ${isHamburgerMenuShow ? "show-menu" : ""}`}>

@@ -16,7 +16,7 @@ nav {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
-.logo-navbar h2 {
+.logo h2 {
   color: var(--white-color);
   font-size: 1.7rem;
   font-family: var(--font-ghasem);
