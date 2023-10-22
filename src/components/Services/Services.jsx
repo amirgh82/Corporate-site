@@ -7,7 +7,7 @@ import { MdSupportAgent } from "react-icons/md";
 export default function Services() {
   return (
     <>
-      <div className="services">
+      <div className="services" id="services">
         <h3 className="section-title">خدمات کدینو</h3>
         <span className="section-title-en">Codino services</span>
         <div className="services-card">

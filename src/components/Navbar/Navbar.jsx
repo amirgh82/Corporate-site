@@ -14,23 +14,23 @@ export default function Navbar() {
       </div>
       <ul className={`navbar-lists ${isHamburgerMenuShow ? "show-menu" : ""}`}>
         <li className="navbar-item">
-          <a href="#" className="navbar-item-link">
+          <a href="#services" className="navbar-item-link">
             خدمات ما
           </a>
         </li>
         <li className="navbar-item">
-          <a href="#" className="navbar-item-link">
+          <a href="#projects" className="navbar-item-link">
             پروژه ها
           </a>
         </li>
 
         <li className="navbar-item">
-          <a href="#" className="navbar-item-link">
+          <a href="#about" className="navbar-item-link">
             درباره ما
           </a>
         </li>
         <li className="navbar-item">
-          <a href="#" className="navbar-item-link">
+          <a href="#contactus" className="navbar-item-link">
             تماس با ما
           </a>
         </li>

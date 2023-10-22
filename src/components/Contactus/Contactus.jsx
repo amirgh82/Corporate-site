@@ -6,7 +6,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
 export default function Contactus() {
   return (
-    <div className="contactus">
+    <div className="contactus" id="contactus">
       <h4 className="section-title">تماس با کدینو</h4>
       <span className="section-title-en">Contact Codeino</span>
       <div className="contactus-content">

@@ -3,7 +3,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h4 className="section-title">درباره کدینو</h4>
       <span className="section-title-en">َAbout Codino</span>
       <div className="about-content">
