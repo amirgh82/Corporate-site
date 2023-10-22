@@ -20,6 +20,7 @@
 
 .swiper {
   width: 100%;
+  padding: 1rem 0 0 0 !important;
 }
 
 .swiper-slide {
@@ -47,13 +48,26 @@
   place-content: center;
   place-items: center;
   overflow: hidden;
-  border-radius: 20px;
   padding: 0 0.5rem;
   cursor: pointer;
+  border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+.projects-card:hover{
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
 }
 
 .projects-card img {
