@@ -45,37 +45,37 @@ export default function Projects() {
         >
           <SwiperSlide>
             <div class="projects-card">
-              <img src="/src/assets/images/background3.jpg" alt="" />
+              <img src="/src/assets/images/background2.jpg" alt="" />
               <h5>پروژه فروشگاهی</h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="projects-card">
-              <img src="/src/assets/images/background3.jpg" alt="" />
+              <img src="/src/assets/images/background4.jpg" alt="" />
               <h5>پروژه فروشگاهی</h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="projects-card">
-              <img src="/src/assets/images/background3.jpg" alt="" />
+              <img src="/src/assets/images/background4.jpg" alt="" />
               <h5>پروژه فروشگاهی</h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="projects-card">
-              <img src="/src/assets/images/background3.jpg" alt="" />
+              <img src="/src/assets/images/background2.jpg" alt="" />
               <h5>پروژه فروشگاهی</h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="projects-card">
-              <img src="/src/assets/images/background3.jpg" alt="" />
+              <img src="/src/assets/images/background2.jpg" alt="" />
               <h5>پروژه فروشگاهی</h5>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="projects-card">
-              <img src="/src/assets/images/background3.jpg" alt="" />
+              <img src="/src/assets/images/background2.jpg" alt="" />
               <h5>پروژه فروشگاهی</h5>
             </div>
           </SwiperSlide>
