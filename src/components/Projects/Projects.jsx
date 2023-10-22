@@ -32,7 +32,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h4 className="section-title">پروژه های کدینو</h4>
       <span className="section-title-en">Codino projects</span>
       <div className="swiper-container">
